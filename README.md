@@ -1,6 +1,7 @@
 # esbuild-svelte
 
-[![npm version](https://badge.fury.io/js/esbuild-svelte.svg)](https://badge.fury.io/js/esbuild-svelte) [![npm downloads](http://img.shields.io/npm/dm/esbuild-svelte.svg)](https://www.npmjs.org/package/esbuild-svelte) [![CI](https://github.com/EMH333/esbuild-svelte/actions/workflows/ci.yml/badge.svg)](https://github.com/EMH333/esbuild-svelte/actions/workflows/ci.yml)
+> [!NOTE]
+> This fork removes all CJS things from the repo, bumps dependencies, and cleans up some code for my personal use. Use at your own discretion.
 
 Plugin to compile svelte components for bundling with esbuild.
 
