@@ -1,12 +1,6 @@
 {
-  "printWidth": 100,
-  "tabWidth": 2,
-  "overrides": [
-    {
-      "files": ["*.js", "*.mjs", "*.ts"],
-      "options": {
-        "tabWidth": 4
-      }
-    }
-  ]
+	"printWidth": 100,
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true
 }

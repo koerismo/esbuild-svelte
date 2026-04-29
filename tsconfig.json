@@ -1,13 +1,15 @@
 {
-  "compilerOptions": {
-    "target": "ES2016",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "exactOptionalPropertyTypes": true,
-    "noUnusedLocals": true
-  },
-  "files": ["index.ts"]
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"strict": true,
+		"types": ["node"],
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"exactOptionalPropertyTypes": true,
+		"noUnusedLocals": true
+	},
+	"files": ["index.ts"]
 }
