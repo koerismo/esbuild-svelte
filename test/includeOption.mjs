@@ -1,7 +1,7 @@
 import { test } from "uvu";
 import * as assert from "uvu/assert";
 import { build } from "esbuild";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import commonOptions from "./utils/commonOptions.js";
 
 test("Include option works correctly", async () => {

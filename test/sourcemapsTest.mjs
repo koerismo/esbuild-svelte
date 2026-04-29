@@ -4,7 +4,7 @@ import { relative } from "path";
 import { build } from "esbuild";
 import { typescript } from "svelte-preprocess-esbuild";
 import { sass } from "./utils/scss-preprocess.mjs";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import commonOptions from "./utils/commonOptions.js";
 
 test("Preprocessor Sourcemap test", async () => {

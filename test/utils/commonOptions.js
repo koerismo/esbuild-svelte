@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     format: "esm",
     minify: true,
     bundle: true,

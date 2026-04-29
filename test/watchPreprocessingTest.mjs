@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 import { dirname } from "path";
 import { context } from "esbuild";
 import { sass } from "./utils/scss-preprocess.mjs";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import commonOptions from "./utils/commonOptions.js";
 
 const __filename = fileURLToPath(import.meta.url);

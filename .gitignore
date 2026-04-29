@@ -2,7 +2,6 @@
 **node_modules/
 
 #should be built by running `node build.js` fresh every time
-dist/index.mjs
 dist/index.js
 
 # from example

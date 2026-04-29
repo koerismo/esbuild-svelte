@@ -6,7 +6,7 @@
 cd "$(dirname "$0")" || exit
 
 # copy esbuild-svelte to destination
-cp ../../dist/index.mjs .
+cp ../../dist/index.js .
 
 npm init -y || exit
 npm pkg set type="module" || exit

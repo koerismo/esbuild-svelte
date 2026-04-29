@@ -1,7 +1,7 @@
 import { test } from "uvu";
 import * as assert from "uvu/assert";
 import { build as _build } from "esbuild";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import sveltePluginCJS from "../dist/index.js";
 import commonOptions from "./utils/commonOptions.js";
 import { VERSION } from "svelte/compiler";

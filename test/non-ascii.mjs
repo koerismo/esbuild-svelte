@@ -2,7 +2,7 @@ import { test } from "uvu";
 import * as assert from "uvu/assert";
 import { build as _build } from "esbuild";
 import { typescript } from "svelte-preprocess-esbuild";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import commonOptions from "./utils/commonOptions.js";
 
 test("Can handle special characters in files", async () => {

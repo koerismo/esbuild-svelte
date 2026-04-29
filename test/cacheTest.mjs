@@ -3,7 +3,7 @@ import * as assert from "uvu/assert";
 import { build, context } from "esbuild";
 import { mkdirSync, unlinkSync, writeFileSync } from "fs";
 import { sass } from "./utils/scss-preprocess.mjs";
-import sveltePlugin from "../dist/index.mjs";
+import sveltePlugin from "../dist/index.js";
 import { tmpdir } from "os";
 import { join } from "path";
 import commonOptions from "./utils/commonOptions.js";
