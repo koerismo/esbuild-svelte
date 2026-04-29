@@ -1,9 +1,6 @@
 # duh
 **node_modules/
 
-#should be built by running `node build.js` fresh every time
-dist/index.js
-
 # from example
 example/dist/
 example/package-lock.json
